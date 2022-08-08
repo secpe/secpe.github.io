@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on SS&#39;s Security Record</title>
+    <title>Overview on SS&#39;s Security Record</title>
     <link>/posts/</link>
-    <description>Recent content in Posts on SS&#39;s Security Record</description>
+    <description>Recent content in Overview on SS&#39;s Security Record</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 08 Aug 2022 04:56:55 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>/posts/my-first-post/</link>
-      <pubDate>Mon, 08 Aug 2022 04:56:55 +0800</pubDate>
+      <title>Jenkins-2022-34174</title>
+      <link>/posts/jenkins-2022-34174/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>/posts/my-first-post/</guid>
-      <description></description>
+      <guid>/posts/jenkins-2022-34174/</guid>
+      <description>&lt;p&gt;In Jenkins 2.355 and earlier, LTS 2.332.3 and earlier, an observable timing discrepancy on the login form allows distinguishing between login attempts with an invalid username, and login attempts with a valid username and wrong password, when using the Jenkins user database security realm.&lt;/p&gt;</description>
     </item>
     
   </channel>

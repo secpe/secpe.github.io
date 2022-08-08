@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Overview - SS&#39;s Security Record</title>
+  <title>Jenkins-2022-34174 - SS&#39;s Security Record</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="/favicon.png">
@@ -18,7 +18,7 @@
 
 </head>
 
-<body class='page page-default-list'>
+<body class='page page-default-single'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
@@ -92,7 +92,7 @@
   <h4>Posts</h4>
   <ul>
     
-    <li class="">
+    <li class="active ">
       <a href="/posts/jenkins-2022-34174/">Jenkins-2022-34174</a>
     </li>
     
@@ -103,24 +103,20 @@
         </div>
         <div class="col-12 col-md-9">
           
-
-<span class="overview">Overview</span>
-<h1 class="title">Overview</h1>
-<div class="content">
-  <h2 id="sss-security-record">SS‘s Security Record</h2>
-<p>Welcome to my blog, I am trying to record some network security operation logs, and I am happy to share the process with you, which makes me very happy, and welcomes great people to join my team.</p>
-
+<h1 class="title">Jenkins-2022-34174</h1>
+<div class="content ">
+  <p>In Jenkins 2.355 and earlier, LTS 2.332.3 and earlier, an observable timing discrepancy on the login form allows distinguishing between login attempts with an invalid username, and login attempts with a valid username and wrong password, when using the Jenkins user database security realm.</p>
+<h2 id="precondition">Precondition</h2>
+<p>Need to know an existing username for comparison.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pip3 install requests
+</span></span></code></pre></div><h3 id="poc">POC</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#-*- coding:utf-8 -*-</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">requests</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sys</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">requests</span> <span class="kn">import</span> <span class="n">exceptions</span>
+</span></span></code></pre></div>
 </div>
-
-
-<div class="summary mb-2">
-  
-  <h2 class="title-summary"><a href="/posts/jenkins-2022-34174/">Jenkins-2022-34174</a></h2>
-  <p><p>In Jenkins 2.355 and earlier, LTS 2.332.3 and earlier, an observable timing discrepancy on the login form allows distinguishing between login attempts with an invalid username, and login attempts with a valid username and wrong password, when using the Jenkins user database security realm.</p></p>
 </div>
-
-
-
 
         </div>
       </div>
